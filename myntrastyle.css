@@ -43,6 +43,10 @@
   color: #282c3f;
   padding-left: 40px;
 }
+#nav > a {
+  text-decoration: none;
+  color: #282c3f;
+}
 
 #search {
   width: 35%;
@@ -93,6 +97,7 @@
     color: #282c3f;
     font-size: 12px;
     font-weight: 700;
+    text-decoration: none;
 }
 
 #body {
