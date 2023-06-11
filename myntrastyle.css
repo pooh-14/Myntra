@@ -17,6 +17,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  top: 0%;
+  background-color: white;
 }
 
 #logo {
@@ -103,6 +106,7 @@
 #body {
   width: 100%;
   /* border: 2px solid red; */
+  margin-top: 40px;
 }
 #body > div:nth-child(1) > img {
   width: 100%;
