@@ -146,8 +146,8 @@
 
 #image>div>span{
     margin-left: 5px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgb(168, 165, 165);
+    /* padding-bottom: 20px;
+    border-bottom: 1px solid rgb(168, 165, 165); */
 }
 
 #image>div>span:nth-child(4),span:nth-child(){
@@ -164,13 +164,16 @@ font-weight: 600;
 
 
 
-#image>div>button{
-   margin: 30px 80px;
-    border: none;
-    outline: none;
-    color: #ff3f6c;
-   font-size: 14px;
-   font-weight: 700;
+#image > div > p:nth-child(6) {
+  /* margin: 30px 65px; */
+  border-top: 1px solid rgb(168, 165, 165);
+  color: #ff3f6c;
+  font-size: 14px;
+  font-weight: 700;
+  width: 98%;
+  margin-top: 22px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 #footer{
